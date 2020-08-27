@@ -198,45 +198,5 @@
     {
         "user_name": "turtlecoin",
         "repo_name": "turtlecoin-network-mapper"
-    },
-    {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-web-wallet-vue"
-    },
-    {
-        "user_name": "turtlecoin",
-        "repo_name": "cs-turtlecoin"
-    },
-    {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-wallet-upgrader-js"
-    },
-    {
-        "user_name": "turtlecoin",
-        "repo_name": ".trtl-resolver"
-    },
-    {
-        "user_name": "turtlecoin",
-        "repo_name": "turtle-vanitygen"
-    },
-    {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-cli-py"
-    },
-    {
-        "user_name": "turtlecoin",
-        "repo_name": "turtleturtle.org"
-    },
-    {
-        "user_name": "turtlecoin",
-        "repo_name": "turtle-git-bot"
-    },
-    {
-        "user_name": "turtlecoin",
-        "repo_name": "api-docs-redirect"
-    },
-    {
-        "user_name": "turtlecoin",
-        "repo_name": "turtlecoin-merchandise-bot"
     }
 ]

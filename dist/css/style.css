@@ -134,7 +134,7 @@ a.link-bg:hover {
 }
 
 .loader {
-	background-image: url("./dist/img/loader.svg");
+	background-image: url(".././img/loader.svg");
 	background-repeat: no-repeat;
 	background-position: center;
 	width: 120px;
