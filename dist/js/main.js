@@ -95,7 +95,7 @@ async function main() {
 	bodySideBar.style.display = 'none'
 
 	try {
-		const repos = await FetchData.fetchJson('../../repos.json')
+		const repos = await FetchData.fetchJson('./repos.json')
 
 		for (const repo of repos) {
 

@@ -55,7 +55,11 @@ a.link-bg:hover {
 	border-color: #43b380;
 }
 
-.btn-primary:hover, .btn-primary.active, .btn-primary:active, .btn-primary.focus, .btn-primary:focus {
+.btn-primary:hover,
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary.focus,
+.btn-primary:focus {
 	background-color: #3ca173;
 	border-color: #3ca173;
 }
@@ -100,7 +104,7 @@ a.link-bg:hover {
 }
 
 .theme-dark .text-body {
-	color: #f5f7fb!important;
+	color: #f5f7fb !important;
 }
 
 .o-auto {
@@ -120,7 +124,7 @@ a.link-bg:hover {
 	vertical-align: middle;
 }
 
-.card>.list-group {
+.card > .list-group {
 	border-top-width: 0;
 }
 
@@ -130,8 +134,8 @@ a.link-bg:hover {
 }
 
 .loader {
-	 background-image: url("/dist/img/loader.svg");
-	  background-repeat: no-repeat;
+	background-image: url("./dist/img/loader.svg");
+	background-repeat: no-repeat;
 	background-position: center;
 	width: 120px;
 	height: 120px;
