@@ -1,7 +1,7 @@
 # TurtleCoin® Open Issues Browser
 TurtleCoin® Open Issues Browser v2020 - Live site: [l33d4n.github.io/trtl-issues/](https://l33d4n.github.io/trtl-issues/)
 
-![screely-1597907203701](https://user-images.githubusercontent.com/8020386/90728023-c9946800-e2f6-11ea-8847-05e0c73915f1.png)
+![screely-1598493729772](https://user-images.githubusercontent.com/8020386/91375139-71a4b680-e84c-11ea-8503-7f3774678224.png)
 
 ### Contributing to TurtleCoin® Open Issues Browser
 
