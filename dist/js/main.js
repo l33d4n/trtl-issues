@@ -24,7 +24,7 @@ function createRepoHeaderHTML(repo, numIssues) {
     const headerText = document.createTextNode(repo.full_name);
 
     const span = document.createElement('span');
-    span.className = 'badge badge-pill bg-green'
+    span.className = 'badge badge-pill bg-green ml-1'
     span.innerText = numIssues;
 
     header.appendChild(headerText);
@@ -120,7 +120,7 @@ async function fetchRepoIssues(repo) {
             labelDiv.className = 'item-labels d-inline-block p-0';
 
             const span = document.createElement('span');
-            span.className = 'badge';
+            span.className = 'badge ml-1';
             span.style = `background-color: #${label.color};`;
             span.textContent = label.name;
 
