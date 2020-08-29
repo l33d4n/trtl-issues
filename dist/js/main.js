@@ -2,18 +2,6 @@ function fixDate(date) {
 	return date.slice(0, date.indexOf('T'))
 }
 
-function spinner(status) {
-	let loader = document.querySelector('#con')
-	if (status) {
-		loader.classList.add('con')
-		loader.innerHTML = `<div class="loader"></div>`
-	} else {
-		loader.classList.remove('con')
-		loader.innerHTML = ''
-		$("body").css("overflow-y", "scroll");
-	}
-}
-
 function createRepoHeaderHTML(repo, numIssues) {
     const repoHeader = document.createElement('div');
     repoHeader.className = 'card-header';
@@ -132,7 +120,7 @@ async function fetchRepoIssues(repo) {
         /* Probably done better in CSS... */
         const small = document.createElement('small');
         small.className = 'd-block text-muted mt-n1';
-        small.textContent = `${issue.number} opened on ${fixDate(issue.created_at)} by ${issue.user.login}`;
+        small.textContent = `#${issue.number} opened on ${fixDate(issue.created_at)} by ${issue.user.login}`;
         itemDiv.appendChild(small);
 
         listItemDiv.appendChild(itemDiv);
@@ -208,7 +196,7 @@ async function loadGithubIssues() {
                 mainDiv.appendChild(repoIssues);
 
                 const sidebarItem = document.createElement('li');
-                sidebarItem.className = 'toc-entry toc-h2';
+                sidebarItem.className = 'toc-entry';
 
                 const repoLink = document.createElement('a');
                 repoLink.href = `#${repo.name}`;
@@ -220,7 +208,7 @@ async function loadGithubIssues() {
 
                 issueCount += count;
 
-                title.innerText = `${issueCount} Open Issues`;
+                title.innerText = `${issueCount} Open Issues Waiting for Contributors`;
             }
         }
 
