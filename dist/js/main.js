@@ -63,7 +63,7 @@ function createCommentSVG() {
 }
 
 async function fetchRepoIssues(repo) {
-    const issueRes = await fetch(`https://api.github.com/repos/turtlecoin/${repo.name}/issues`, {
+    const issueRes = await fetch(`https://api.github.com/repos/${repo.full_name}/issues`, {
         headers: {
             Authorization: '',
         },

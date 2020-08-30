@@ -140,10 +140,6 @@
         "name": "brand"
     },
     {
-        "full_name": "turtlecoin/funky-turtle-pool",
-        "name": "funky-turtle-pool"
-    },
-    {
         "full_name": "turtlecoin/wallet-api-docs",
         "name": "wallet-api-docs"
     },
@@ -198,5 +194,77 @@
     {
         "full_name": "turtlecoin/turtlecoin-network-mapper",
         "name": "turtlecoin-network-mapper"
+    },
+    {
+        "full_name": "turtlecoin/cryptodira",
+        "name": "cryptodira"
+    },
+    {
+        "full_name": "turtlecoin/cryptodira",
+        "name": "cryptodira"
+    },
+    {
+        "full_name": "turtlecoin/funky-turtle-pool",
+        "name": "funky-turtle-pool"
+    },
+    {
+        "full_name": "turtlecoin/turtlecoin-web-wallet-vue",
+        "name": "turtlecoin-web-wallet-vue"
+    },
+    {
+        "full_name": "turtlecoin/cs-turtlecoin",
+        "name": "cs-turtlecoin"
+    },
+    {
+        "full_name": "turtlecoin/turtleturtle.org",
+        "name": "turtleturtle.org"
+    },
+    {
+        "full_name": "TurtlePay/blockchain-cache-api",
+        "name": "blockchain-cache-api"
+    },
+    {
+        "full_name": "TurtlePay/blockchain-data-collection-agent",
+        "name": "blockchain-data-collection-agent"
+    },
+    {
+        "full_name": "TurtlePay/turtlepay-wallet",
+        "name": "turtlepay-wallet"
+    },
+    {
+        "full_name": "TurtlePay/turtlepay-public-api",
+        "name": "turtlepay-public-api"
+    },
+    {
+        "full_name": "TurtlePay/turtlepay-website",
+        "name": "turtlepay-website"
+    },
+    {
+        "full_name": "TurtlePay/turtlepay-website",
+        "name": "turtlepay-website"
+    },
+    {
+        "full_name": "karai/go-karai",
+        "name": "go-karai"
+    },
+    {
+        "full_name": "karai/libkarai-js",
+        "name": "libkarai-js"
+    },
+    {
+        "full_name": "karai/libkarai-go",
+        "name": "libkarai-go"
+    },
+    {
+        "full_name": "karai/ts-karai",
+        "name": "ts-karai"
+    },
+    {
+        "full_name": "karai/api-docs",
+        "name": "api-docs"
+    },
+    {
+        "full_name": "karai/karai.github.io",
+        "name": "karai.github.io"
     }
 ]
