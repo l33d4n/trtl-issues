@@ -218,53 +218,5 @@
     {
         "full_name": "turtlecoin/turtleturtle.org",
         "name": "turtleturtle.org"
-    },
-    {
-        "full_name": "TurtlePay/blockchain-cache-api",
-        "name": "blockchain-cache-api"
-    },
-    {
-        "full_name": "TurtlePay/blockchain-data-collection-agent",
-        "name": "blockchain-data-collection-agent"
-    },
-    {
-        "full_name": "TurtlePay/turtlepay-wallet",
-        "name": "turtlepay-wallet"
-    },
-    {
-        "full_name": "TurtlePay/turtlepay-public-api",
-        "name": "turtlepay-public-api"
-    },
-    {
-        "full_name": "TurtlePay/turtlepay-website",
-        "name": "turtlepay-website"
-    },
-    {
-        "full_name": "TurtlePay/turtlepay-website",
-        "name": "turtlepay-website"
-    },
-    {
-        "full_name": "karai/go-karai",
-        "name": "go-karai"
-    },
-    {
-        "full_name": "karai/libkarai-js",
-        "name": "libkarai-js"
-    },
-    {
-        "full_name": "karai/libkarai-go",
-        "name": "libkarai-go"
-    },
-    {
-        "full_name": "karai/ts-karai",
-        "name": "ts-karai"
-    },
-    {
-        "full_name": "karai/api-docs",
-        "name": "api-docs"
-    },
-    {
-        "full_name": "karai/karai.github.io",
-        "name": "karai.github.io"
     }
 ]
