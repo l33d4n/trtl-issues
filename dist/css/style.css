@@ -132,3 +132,7 @@ a.link-bg:hover {
 	line-height: 1;
 	font-weight: 500;
 }
+
+#feed a {color: #43b380;}
+
+#feed a:hover {color: #3ca173;}
