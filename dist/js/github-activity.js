@@ -56,7 +56,7 @@ var GitHubActivity = (function() {
           }
           if (i < 2) {
             d.shaLink = methods.renderGitHubLink(data.repo.name + '/commit/' + d.sha, d.sha.substring(0, 6), 'gha-sha');
-            d.committerGravatar = Mustache.render('<img class="avatar avatar-sm mr-1" src="https://gravatar.com/avatar/{{hash}}?s=30&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="16" />', { hash: md5(d.author.email) });
+            d.committerGravatar = Mustache.render('<span class="avatar avatar-sm mr-1" style="background-image: url({{url}})"></span>', { url: data.actor.avatar_url });
           } else {
             // Delete the rest of the commits after the first 2, and then break out of the each loop.
             p.commits.splice(2, p.size);
