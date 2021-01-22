@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>TurtleCoin Open Issues</title>
+	<title>TurtleCoin GitHub Activity Stream</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 	<meta name="msapplication-TileColor" content="#43b380">
 	<meta name="theme-color" content="#43b380">
@@ -21,6 +21,10 @@
 	<link rel="mask-icon" href="./dist/ico/safari-pinned-tab.svg" color="#43b380">
 	<link href="./dist/css/tabler.min.css" rel="stylesheet">
 	<link href="./dist/css/style.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	<link rel="stylesheet" href="http://caseyscarborough.com/github-activity/github-activity-0.1.5.min.css">
+
 	<style>
 		body {
 			display: none;
@@ -56,7 +60,7 @@
 				<div class="collapse navbar-collapse" id="navbar-menu">
 					<div class="d-flex flex-column flex-lg-row flex-fill align-items-stretch align-items-lg-center">
 						<ul class="navbar-nav">
-							<li class="nav-item active">
+							<li class="nav-item">
 								<a class="nav-link" href="./index.html">
 									<span class="nav-link-icon d-lg-inline-block">
 										<svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -71,7 +75,7 @@
 									<span class="nav-link-title">Open Issues</span>
 								</a>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item active">
 								<a class="nav-link" href="./activity.html">
 									<span class="nav-link-icon d-lg-inline-block">
 										<svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -121,7 +125,7 @@
 				<div class="page-header text-white">
 					<div class="row align-items-center">
 						<div class="col-auto">
-							<h2 class="page-title"></h2>
+							<h2 class="page-title">GitHub Activity Stream</h2>
 						</div>
 					</div>
 				</div>
@@ -137,39 +141,17 @@
 							</svg>
 							Join Discord
 						</a>
-						<div class="sticky-top pt-6">
+						<!-- <div class="sticky-top pt-6">
 							<h5 class="subheader">Repositories</h5>
 							<ul class="list-unstyled">
-								<!-- <li class="toc-entry toc-h2"><a href="#what-is-tabler">What is Tabler?</a></li> -->
+								<li class="toc-entry toc-h2"><a href="#what-is-tabler">What is Tabler?</a></li>
 							</ul>
                            <a class="subheader" href="#top">BACK TO TOP</a>
-						</div>
+						</div> -->
 					</div>
 					<div id="main" class="col-lg-9">
-						<!-- <div class="card">
-							<div class="card-header">
-								<h3 class="card-title">turtlecoin/turtlecoin-wallet-backend-js <span class="badge badge-pill bg-green">5</span></h3>
-							</div>
-							<div class="list list-row list-hoverable">
-
-								<div class="list-item">
-									<div class="item">
-										<a href="#" class="text-body h3 d-inline-block mb-0" data-toggle="tooltip" data-placement="top" title="- Allow for using the LedgerNote library instead of CryptoNote library if LedgerTransport is provided
-										- Add more WalletError num entries for Ledger based operations ...	">Hook up Ledger Wallet Integration</a>
-										<small class="d-block text-muted mt-n1">#93 opened on 2020-08-21 by brandonlehmann</small>
-									</div>
-									<a href="#" class="list-item-actions show">
-										<svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-											<path stroke="none" d="M0 0h24v24H0z"></path>
-											<path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4"></path>
-											<line x1="8" y1="9" x2="16" y2="9"></line>
-											<line x1="8" y1="13" x2="14" y2="13"></line>
-										</svg>2
-									</a>
-								</div>
-
-							</div>
-						</div> -->
+						<div class="card" id="feed">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -204,8 +186,17 @@
 	<script src="./dist/js/tabler.min.js"></script>
 	<!-- Dark Mode -->
 	<script src="./dist/js/dark-mode.js"></script>
+	<!-- GitHub Activity -->
+	<script src="./dist/js/github-activity.js"></script>
+	<script src="./dist/js/mustache.min.js"></script>
 	<script>
 		document.body.style.display = "block"
 	</script>
-	<script src="./dist/js/main.js"></script>
+	<script>
+		GitHubActivity.feed({
+			username: "turtlecoin",
+			selector: "#feed",
+			limit: 100 // optional
+		});
+	</script>
 </body></html>
